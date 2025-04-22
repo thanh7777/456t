@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Viện Hải Dương Học - Nha Trang</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            color: black;
+            margin: 0;
+            padding: 20px;
+        }
+
+        header, nav, section, footer {
+            margin-bottom: 30px;
+        }
+
+        nav a {
+            margin-right: 15px;
+            text-decoration: none;
+            color: black;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        input, textarea, button {
+            width: 100%;
+            padding: 8px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            font-size: 14px;
+        }
+
+        button {
+            cursor: pointer;
+        }
+
+        h1, h2 {
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Viện Hải Dương Học - Nha Trang</h1>
+    </header>
+
+    <nav>
+        <a href="#gioithieu">Giới thiệu</a>
+        <a href="#tintuc">Tin tức</a>
+        <a href="#vanban">Văn bản</a>
+        <a href="#hoatdong">Hoạt động</a>
+        <a href="#lienhe">Liên hệ</a>
+    </nav>
+
+    <section id="gioithieu">
+        <h2>Giới thiệu</h2>
+        <p>Viện Hải Dương Học Nha Trang là nơi nghiên cứu và trưng bày các loài sinh vật biển, là điểm đến hấp dẫn tại thành phố biển Nha Trang.</p>
+        <img src="/mnt/data/99cb6f25-b526-40fe-a032-b46abfa3015f.png" alt="Bể cá tại viện hải dương học">
+    </section>
+
+    <section id="tintuc">
+        <h2>Tin tức</h2>
+        <ul>
+            <li>Khai trương khu trưng bày sinh vật mới.</li>
+            <li>Hội thảo khoa học về biển và môi trường.</li>
+        </ul>
+        <img src="/mnt/data/34ed1cb5-c6ab-4002-9480-e3d6b3361293.png" alt="Hội thảo khoa học">
+    </section>
+
+    <section id="vanban">
+        <h2>Văn bản</h2>
+        <ul>
+            <li>Thông báo lịch tham quan 2025</li>
+            <li>Nội quy tham quan</li>
+        </ul>
+    </section>
+
+    <section id="hoatdong">
+        <h2>Hoạt động</h2>
+        <ul>
+            <li>Tham quan bảo tàng sinh vật biển</li>
+            <li>Tìm hiểu về hệ sinh thái đại dương</li>
+        </ul>
+        <img src="/mnt/data/492a80ee-4c44-4842-80ba-cd8b1560161e.png" alt="Hoạt động thực địa">
+    </section>
+
+    <section id="lienhe">
+        <h2>Thông tin liên hệ</h2>
+        <p><strong>Địa chỉ:</strong> 01 Cầu Đá, Trần Phú, TP. Nha Trang</p>
+        <p><strong>Email:</strong> vienhaiduonghoc@gmail.com</p>
+        <p><strong>Điện thoại:</strong> 0258 3590 037</p>
+
+        <form action="#" method="post">
+            <label for="name">Họ và tên:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Nội dung:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Gửi</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Viện Hải Dương Học - Nha Trang</p>
+    </footer>
+
+</body>
+</html>
